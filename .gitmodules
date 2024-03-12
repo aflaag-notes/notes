@@ -19,3 +19,6 @@
 [submodule "Nyx"]
 	path = Nyx
 	url = https://github.com/Exyss/Nyx
+[submodule "packages/Nyx"]
+	path = packages/Nyx
+	url = https://github.com/Exyss/Nyx
