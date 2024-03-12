@@ -1,0 +1,21 @@
+[submodule "algebra"]
+	path = algebra
+	url = https://github.com/aflaag-notes/algebra
+[submodule "discrete-math"]
+	path = discrete-math
+	url = https://github.com/aflaag-notes/discrete-math
+[submodule "algorithms"]
+	path = algorithms
+	url = https://github.com/aflaag-notes/algorithms
+[submodule "automata"]
+	path = automata
+	url = https://github.com/aflaag-notes/automata
+[submodule "database"]
+	path = database
+	url = https://github.com/aflaag-notes/database
+[submodule "languages"]
+	path = languages
+	url = https://github.com/aflaag-notes/languages
+[submodule "Nyx"]
+	path = Nyx
+	url = https://github.com/Exyss/Nyx
