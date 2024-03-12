@@ -1,0 +1,101 @@
+\ProvidesPackage{nyx-packages}[Nyx Required Packages]
+
+% Encoding
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{eurosym}
+\RequirePackage{titlesec}
+\RequirePackage{blindtext}
+\RequirePackage{listings}
+
+% Style
+
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{fancyhdr}
+\RequirePackage[bottom]{footmisc}
+\RequirePackage[framemethod=TikZ]{mdframed}
+
+\edef\restoreparindent{\parindent=\the\parindent\relax}
+\RequirePackage[parfill]{parskip}
+
+\RequirePackage{enumitem}
+\RequirePackage{csquotes}
+\RequirePackage{xcolor}
+
+\RequirePackage{float}
+\RequirePackage{bbm}
+
+\RequirePackage{tcolorbox}
+\RequirePackage{varwidth}
+
+\RequirePackage{latexsym}
+
+% Bibliography
+
+\RequirePackage[
+    backend=biber,
+    style=numeric-comp,
+    sorting=none,
+    maxbibnames=99,
+    backref=true
+]{biblatex}
+
+% Mathematics
+
+\RequirePackage{amsmath}
+\RequirePackage{amsthm}
+\RequirePackage{amssymb}
+\RequirePackage{bm}
+\RequirePackage{esint}
+\RequirePackage{nicematrix,tikz}
+\RequirePackage{stmaryrd}
+\RequirePackage{mathtools}
+\RequirePackage{extarrows}
+\RequirePackage{mathrsfs}
+\RequirePackage{pgfplots}
+\usepackage{multirow}
+
+% Algorithms
+% DISCLAIMER: algorithm and algorithm2e are MUTUALLY EXCLUSIVE (they can't be used at the same time)
+
+% \RequirePackage{algorithm2e}
+\RequirePackage[Algoritmo]{algorithm}      
+\RequirePackage{algpseudocode}
+
+% Other
+
+\RequirePackage[nomessages]{fp}
+\RequirePackage{karnaugh-map}
+\RequirePackage{circuitikz}
+\RequirePackage{enumitem}
+\usepackage[normalem]{ulem}
+
+% Links
+
+\RequirePackage[
+    pdfusetitle,
+    colorlinks=true,
+    linktoc=all,
+    allcolors=blue
+]{hyperref}
+
+% Tikz
+
+\usetikzlibrary{graphs}
+\usetikzlibrary{trees}
+
+% Tcolorbox
+
+\tcbuselibrary{skins}
+\tcbuselibrary{xparse}
+\tcbuselibrary{breakable}
+
+\if\useItalian1
+    \RequirePackage[italian]{babel}
+    \RequirePackage[capitalize,nameinlink,italian]{cleveref}
+\else
+    \RequirePackage[english]{babel}
+    \RequirePackage[capitalize,nameinlink,english]{cleveref}
+\fi

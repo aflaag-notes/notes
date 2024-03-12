@@ -1,0 +1,119 @@
+\ProvidesPackage{nyx-styles}[Nyx Styles]
+
+% Parindent
+
+\DeclareOption{parindent}{
+    \restoreparindent
+}
+
+% Table of contents
+
+\newcommand{\romantableofcontents}{ % creates a table of contents with roman (i, ii, iii, ...) numbering of the pages
+    \newpage
+    \pagenumbering{roman}
+    \tableofcontents
+    \newpage
+    \pagenumbering{arabic}
+}
+
+% Page Style
+
+\geometry{top=3.5cm,bottom=2.5cm,right=2.5cm,left=2.5cm}
+
+\pagestyle{fancy}
+\fancyhead{}        % clear all header fields
+\fancyhead[R]{\nouppercase{\rightmark}}
+
+\fancyfoot{}        % clear all footer fields
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\nouppercase{\leftmark}}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\fancypagestyle{plain}{%
+\fancyhead{}        % clear all header fields
+\fancyfoot{}        % clear all footer fields
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}}
+
+
+% Chapter Page Style
+
+\newcommand{\chapnumfont}{%     % define font for chapter number
+  \usefont{T1}{qtm}{n}{n}%      % choose TeX Gyre Termes, bold, normal shape
+  \fontsize{100}{40}%           % font size 100pt, baselineskip 100pt
+  \selectfont%                  % activate font
+}
+\colorlet{chapnumcol}{gray!60}  % color for chapter number
+
+\titleformat{\chapter}[display]
+{\filleft\bfseries}
+{\filleft\chapnumfont\textcolor{chapnumcol}{\thechapter}}
+{0pt}
+{\Huge}
+
+% Circuits
+
+\ctikzset{logic ports=ieee}
+
+% Algorithms
+% DISCLAIMER: algorithm and algorithm2e are MUTUALLY EXCLUSIVE (they can't be used at the same time)
+
+%%%%% algorithm2e styles
+
+% \RestyleAlgo{ruled}
+% \SetKwComment{Comment}{/* }{ */}
+% \SetKwProg{Fn}{Function}{}{end}
+% \SetArgSty{upshape}
+
+%%%%% algorithm styles 
+
+\counterwithin{algorithm}{subsection}
+\newenvironment{nocaptionalg} % environment for algorithms without caption
+{
+    \par\addvspace{\topsep}
+    \centering
+    \begin{minipage}{\linewidth}
+    \hrule\kern2pt
+}
+{
+    \par\kern2pt\hrule
+    \end{minipage}
+    \par\addvspace{\topsep}
+}
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+% Automatas
+
+\usetikzlibrary{automata,arrows}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Unknown Settings (probably needed???) %
+%%%%%%%%%%%%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+% Arrays
+
+\renewcommand{\arraystretch}{1.1}
+
+% Bibliography
+
+\DefineBibliographyStrings{english}{
+    backrefpage = {page},
+    backrefpages = {pages}
+}
+
+% Figures
+
+\newcommand{\noskipcaption}[1]{\caption{#1}\vspace{-1em}} % caption without additional vertical space
+
+% Footnotes
+
+\makeatletter
+\def\blindfootnote{\gdef\@thefnmark{}\@footnotetext} % footnote without number
+\makeatother
+
+\ProcessOptions\relax
+\endinput
