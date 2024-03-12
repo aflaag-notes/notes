@@ -16,9 +16,3 @@
 [submodule "languages"]
 	path = languages
 	url = https://github.com/aflaag-notes/languages
-[submodule "Nyx"]
-	path = Nyx
-	url = https://github.com/Exyss/Nyx
-[submodule "packages/Nyx"]
-	path = packages/Nyx
-	url = https://github.com/Exyss/Nyx
