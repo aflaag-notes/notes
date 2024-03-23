@@ -16,6 +16,9 @@
 [submodule "languages"]
 	path = languages
 	url = https://github.com/aflaag-notes/languages
+[submodule "thesis-notes"]
+	active = true
+	url = https://github.com/aflaag-notes/thesis-notes
 [submodule "packages/Nyx"]
 	path = packages/Nyx
 	url = https://github.com/Exyss/Nyx
