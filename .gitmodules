@@ -22,3 +22,6 @@
 [submodule "thesis-notes"]
 	path = thesis-notes
 	url = https://github.com/aflaag-notes/thesis-notes
+[submodule "moc"]
+	path = moc
+	url = https://github.com/aflaag-notes/moc
