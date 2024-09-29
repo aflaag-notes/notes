@@ -25,3 +25,6 @@
 [submodule "moc"]
 	path = moc
 	url = https://github.com/aflaag-notes/moc
+[submodule "network-algs"]
+	path = network-algs
+	url = https://github.com/aflaag-notes/network-algs
