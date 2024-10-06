@@ -19,12 +19,12 @@
 [submodule "packages/Nyx"]
 	path = packages/Nyx
 	url = https://github.com/Exyss/Nyx
-[submodule "thesis-notes"]
-	path = thesis-notes
-	url = https://github.com/aflaag-notes/thesis-notes
 [submodule "moc"]
 	path = moc
 	url = https://github.com/aflaag-notes/moc
 [submodule "network-algs"]
 	path = network-algs
 	url = https://github.com/aflaag-notes/network-algs
+[submodule "machine-learning"]
+	path = machine-learning
+	url = https://github.com/aflaag-notes/machine-learning
