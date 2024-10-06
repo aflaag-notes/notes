@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Information and Contacts}{1}{chapter*.2}%
+\contentsline {subsubsection}{Suggested prerequisites:}{1}{subsubsection*.3}%
+\contentsline {subsubsection}{Licence:}{1}{subsubsection*.4}%
+\contentsline {chapter}{\numberline {1}TODO}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Learning problems}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Learning}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Machine Learning problems}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Hypothesis spaces}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Version spaces}{5}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Representation issues}{6}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Data noise issues}{8}{subsection.1.1.6}%
+\contentsline {section}{\numberline {1.2}Performance evaluation}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Errors and accuracy}{8}{subsection.1.2.1}%
