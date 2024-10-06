@@ -1,9 +1,6 @@
 [submodule "algebra"]
 	path = algebra
 	url = https://github.com/aflaag-notes/algebra
-[submodule "discrete-math"]
-	path = discrete-math
-	url = https://github.com/aflaag-notes/discrete-math
 [submodule "algorithms"]
 	path = algorithms
 	url = https://github.com/aflaag-notes/algorithms
