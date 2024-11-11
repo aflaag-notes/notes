@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 NOTES_PATHS=`find -maxdepth 1 -type d`
 NOTES_PATHS="$NOTES_PATHS ./packages/Nyx"
@@ -10,7 +10,7 @@ for PATH in $NOTES_PATHS; do
     then
         cd $PATH
         echo "##### INSIDE $PATH ##### "
-        /usr/bin/git checkout main
+        /etc/profiles/per-user/aless/bin/git checkout main
         cd ..
     fi
 done
