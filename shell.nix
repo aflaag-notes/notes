@@ -62,5 +62,3 @@ pkgs.mkShell {
     )
   ];
 }
-
-test
