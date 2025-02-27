@@ -2,6 +2,7 @@
 
 Questi sono tutti i miei appunti:
 
+- [Advanced Algorithms](https://www.github.com/aflaag-notes/advanced-algs)
 - [Algebra](https://www.github.com/aflaag-notes/algebra)
 - [Automi: Calcolabilità e Complessità](https://www.github.com/aflaag-notes/automata)
 - [Basi di Dati I](https://www.github.com/aflaag-notes/database)
