@@ -19,3 +19,6 @@
 [submodule "network-algs"]
 	path = network-algs
 	url = https://github.com/aflaag-notes/network-algs
+[submodule "advanced-algs"]
+	path = advanced-algs
+	url = https://github.com/aflaag-notes/advanced-algs
