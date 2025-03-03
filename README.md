@@ -7,6 +7,7 @@ Questi sono tutti i miei appunti:
 - [Automi: Calcolabilità e Complessità](https://www.github.com/aflaag-notes/automata)
 - [Basi di Dati I](https://www.github.com/aflaag-notes/database)
 - [Linguaggi di Programmazione](https://www.github.com/aflaag-notes/languages)
+- [Mathematical Logic for Computer Science](https://www.github.com/aflaag-notes/logic-cs)
 - [Network Algorithms](https://www.github.com/aflaag-notes/network-algs)
 - [Progettazione di Algoritmi](https://www.github.com/aflaag-notes/algorithms)
 
