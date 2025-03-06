@@ -25,3 +25,6 @@
 [submodule "logic-cs"]
 	path = logic-cs
 	url = https://github.com/aflaag-notes/logic-cs
+[submodule "graph-theory"]
+	path = graph-theory
+	url = https://github.com/aflaag-notes/graph-theory
