@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+GIT=`which git`
+
 NOTES_PATHS=`find -maxdepth 1 -type d`
 NOTES_PATHS="$NOTES_PATHS ./packages/Nyx"
 
@@ -9,8 +11,8 @@ for PATH in $NOTES_PATHS; do
     if ! [[ "$PATH" =~ $TO_AVOID ]]
     then
         cd $PATH
-        echo "##### INSIDE $PATH ##### "
-        /etc/profiles/per-user/aless/bin/git checkout main
+        echo "##### INSIDE $PATH #####"
+        $GIT checkout main
         cd ..
     fi
 done
