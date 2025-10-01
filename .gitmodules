@@ -28,3 +28,6 @@
 [submodule "graph-theory"]
 	path = graph-theory
 	url = https://github.com/aflaag-notes/graph-theory
+[submodule "quantum-computing"]
+	path = quantum-computing
+	url = https://github.com/aflaag-notes/quantum-computing
