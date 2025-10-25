@@ -22,15 +22,9 @@
 [submodule "advanced-algs"]
 	path = advanced-algs
 	url = https://github.com/aflaag-notes/advanced-algs
-[submodule "logic-cs"]
-	path = logic-cs
-	url = https://github.com/aflaag-notes/logic-cs
 [submodule "graph-theory"]
 	path = graph-theory
 	url = https://github.com/aflaag-notes/graph-theory
 [submodule "quantum-computing"]
 	path = quantum-computing
 	url = https://github.com/aflaag-notes/quantum-computing
-[submodule "cryptography"]
-	path = cryptography
-	url = https://github.com/aflaag-notes/cryptography
