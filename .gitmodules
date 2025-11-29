@@ -28,3 +28,6 @@
 [submodule "quantum-computing"]
 	path = quantum-computing
 	url = https://github.com/aflaag-notes/quantum-computing
+[submodule "aut-net"]
+	path = aut-net
+	url = https://github.com/aflaag-notes/aut-net
