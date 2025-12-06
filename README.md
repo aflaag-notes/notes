@@ -27,3 +27,4 @@ Here you can find all my notes!
 ### Second year
 
 - [Quantum Computing](https://www.github.com/aflaag-notes/quantum-computing)
+- [Autonomous Networking](https://www.github.com/aflaag-notes/aut-net)
