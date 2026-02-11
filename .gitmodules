@@ -28,3 +28,6 @@
 [submodule "quantum-computing"]
 	path = quantum-computing
 	url = https://github.com/aflaag-notes/quantum-computing
+[submodule "scribbles"]
+	path = scribbles
+	url = https://github.com/aflaag-notes/scribbles
