@@ -31,6 +31,3 @@
 [submodule "scribbles"]
 	path = scribbles
 	url = https://github.com/aflaag-notes/scribbles
-[submodule "hw-interactive-graphics"]
-	path = hw-interactive-graphics
-	url = https://github.com/aflaag-notes/hw-interactive-graphics.git
